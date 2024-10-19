@@ -34,6 +34,21 @@
             <version>4.13.2</version>
             <scope>test</scope>
         </dependency>
+
+            <!-- Spring Boot Starter -->
+            <dependency>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-starter</artifactId>
+                <version>3.3.4</version> <!-- Ensure this version matches your other Spring Boot dependencies -->
+            </dependency>
+
+        <!-- Spring Boot Starter Security -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-security</artifactId>
+            <version>3.3.4</version> <!-- Ensure this version matches your other Spring Boot dependencies -->
+        </dependency>
+
     </dependencies>
 
     <build>
