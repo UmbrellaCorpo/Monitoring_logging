@@ -1,2 +1,3 @@
 Este es mi repositorio en github : https://github.com/UmbrellaCorpo/Monitoring_logging.git
+
 Este componente implementa un sistema de monitoreo y registro para supervisar el estado y el rendimiento de la aplicación en tiempo real. Desarrollado en Java con Spring Boot, utiliza Spring Actuator para exponer métricas clave y puntos finales de monitoreo a través de la ruta `/actuator`, incluyendo información sobre la salud del sistema, uso de recursos y estadísticas de rendimiento. El logging se gestiona mediante la integración de SLF4J y Logback, registrando eventos críticos y permitiendo el análisis detallado de la actividad concurrente y de las operaciones paralelas del sistema.
